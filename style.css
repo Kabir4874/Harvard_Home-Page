@@ -75,3 +75,63 @@ nav a:hover{
     text-decoration: underline;
     color: white;
 }
+.bg{
+    margin-top: 2rem;
+    padding: 4rem 14rem;
+    background-image: url('./hc-018_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg div{
+    background-color: white;
+    padding: 2rem;
+}
+
+.bg div h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.bg div p{
+    margin-bottom: 1rem;
+}
+
+.bg div button{
+    background-color: #2b416e;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.bg div button:hover{
+    background-color: white;
+    color: black;
+    outline: 2px solid #2b416e;
+    cursor: pointer;
+}
+
+.about{
+    position: relative;
+    
+    
+}
+.about h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about div{
+    position: absolute;
+    width: 4rem;
+    height: 5px;
+    background-color: #a51c30;
+    top: -1rem;
+}
+
+.txt{
+    font-size: 1.2rem;
+}
